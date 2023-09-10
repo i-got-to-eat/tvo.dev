@@ -1,4 +1,4 @@
-# **[Tam's Portfolio](https://www.tvo.dev)**
+# **[Tam's Portfolio](https://tvo.dev)**
 
 This portfolio will try to support the following features:
 1. Fullstack NextJS Application
