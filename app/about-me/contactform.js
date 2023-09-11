@@ -16,23 +16,24 @@ export default function ContactForm() {
 
 		const data = await response;
 	}
-	return (
-		<form onSubmit={onSubmit} 
-		className="">
+	return (<>
+		<h2>Contact Me</h2>
+		<div className="w-full">
+		<form onSubmit={onSubmit} className="w-7/12 inline-block items-center grid grid-rows-6">
 			<label for="first-name">First Name:</label> 
-			<input id="first-name" type="text" name="First Name" autocomplete="given-name"/>
+			<input id="first-name" type="text" name="First Name" autoComplete="given-name"/>
 				
 			<label for="last-name">Last Name:</label> 
-			<input id="last-name" type="text" name="Last Name" autocomplete="family-name"/>
+			<input id="last-name" type="text" name="Last Name" autoComplete="family-name"/>
 
 			<label for="email">Email:</label> 
-			<input id="email" type="email" name="Email" autocomplete="email"/>
+			<input id="email" type="email" name="Email" autoComplete="email"/>
 			
 			<label for="phone-number">Phone Number:</label> 
-			<input id="phone-number" type="tel" name="Phone Number" autocomplete="tel"/>
+			<input id="phone-number" type="tel" name="Phone Number" autoComplete="tel"/>
 
 			<label for="company">Company/Affiliate:</label>
-			<input id="company" type="text" name="Company" autocomplete="organization"/>
+			<input id="company" type="text" name="Company" autoComplete="organization"/>
 
 
 			<label for="email-type">How would you like to work with me?</label>
@@ -44,9 +45,11 @@ export default function ContactForm() {
 			</select>
 
 			<label for="message">Message:</label> 
-			<input id="message" type="text" name="Message" autocomplete="off"/>
+			<input id="message" type="text" name="Message" autoComplete="off"/>
 
 			<button type="submit">Submit</button>
 		</form>
+	</div>
+	</>
 	)
 }

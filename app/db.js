@@ -1,10 +1,9 @@
-import { PrismaClient } from '@prisma/client';
-
-const DBClient = {
-  instance: new PrismaClient(),
-};
+import { PrismaClient } from "@prisma/client";
 
 
-Object.freeze(DBClient);
+export const prisma =
+  global.prisma ||
+  new PrismaClient({
+    log: ["query"],
+  });
 
-export default DBClient;

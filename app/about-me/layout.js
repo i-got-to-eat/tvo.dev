@@ -4,14 +4,19 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Contact Information about Tam Vo',
+  title: 'Contact Information for Tam Vo',
   description: 'Instagram, Youtube, Facebook, Twitter (X), Form Outreach',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>
+	  <div id="stars"/>
+	  <div id="stars2"/>
+	  <div id="stars3"/>
+	  
+	  <div>{children}</div></body>
+	  </html>
   )
 }

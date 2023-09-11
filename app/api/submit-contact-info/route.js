@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { DBClient } from '../../db';
+import { prisma } from '../../db';
 
 export async function POST(req){
 	const data = await req.json();
