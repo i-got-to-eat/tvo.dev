@@ -1,28 +1,33 @@
 what i learned today
-- user google
+- use google
 - API routes must be within the folder directory accompied with route.js
 
 
 ---  Troubleshooting 
-- Returning Response 
-- Serverside Data Validation
-- Import to SQL 
 - Browser Form Validation
 - Server Response for invalid behavior for form 
-
+- Accessiblible form 
+- WEIRD ANIMATION SCROLLING on ABOUT PAGE
 
 
 
 nice to have
 - Styling
 - accessiblity and proper html5 semantics
+--- ARIA-labels
 
 
 must have 
 - projects
 - digital showcase for achievments
+- Include Digital Marketing Services
+- FOOTER
 
-i like to eat 
+I GOT TO EAT 
 
+HOME Page
+- Languages
+- Resume
+- Accomplishments
 
 
