@@ -16,7 +16,7 @@ model ContactInformation {
   created_at DateTime @default(now())
   first_name String @db.VarChar(255)
   last_name String @db.VarChar(255)    
-  phone_number String @db.VarChar(20)
+  phone_number String @db.VarChar(50)
   company String @db.VarChar(255)
   email String @db.VarChar(255)
   email_type Email_Type @default(GENERAL_OUTREACH)
